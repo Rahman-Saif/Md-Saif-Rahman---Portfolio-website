@@ -1,0 +1,201 @@
+/* css/contact.css */
+
+.contact-main{
+    margin-left:320px;
+    width:calc(100% - 320px);
+    min-height:100vh;
+    padding:60px;
+    background:#fafafa;
+}
+
+/* HEADER */
+
+.contact-header{
+    margin-bottom:60px;
+}
+
+.contact-header h1{
+    font-size:60px;
+    color:#800000;
+    margin-bottom:15px;
+}
+
+.contact-header p{
+    max-width:700px;
+    line-height:1.8;
+    color:#555;
+    font-size:18px;
+}
+
+/* MAIN CONTAINER */
+
+.contact-container{
+    display:grid;
+    grid-template-columns:1fr 1.3fr;
+    gap:40px;
+}
+
+/* CONTACT INFO */
+
+.contact-info{
+    background:white;
+    padding:35px;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    height:fit-content;
+}
+
+.info-card{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    padding:20px;
+    border-radius:18px;
+    background:#f8f8f8;
+    margin-bottom:20px;
+    transition:0.3s;
+}
+
+.info-card:hover{
+    transform:translateX(8px);
+    background:#f3e7e7;
+}
+
+.info-card i{
+    width:60px;
+    height:60px;
+    background:#800000;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:18px;
+    font-size:24px;
+}
+
+.info-card h3{
+    margin-bottom:8px;
+    color:#800000;
+}
+
+.info-card p{
+    color:#555;
+    line-height:1.6;
+}
+
+/* CV BUTTON */
+
+.cv-btn{
+    width:100%;
+    margin-top:15px;
+    background:#800000;
+    color:white;
+    text-decoration:none;
+    padding:18px;
+    border-radius:16px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.cv-btn:hover{
+    background:#a52a2a;
+    transform:translateY(-3px);
+}
+
+/* FORM CONTAINER */
+
+.contact-form-container{
+    background:white;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* FORM */
+
+.contact-form{
+    width:100%;
+}
+
+.input-group{
+    margin-bottom:25px;
+}
+
+.input-group input,
+.input-group textarea{
+    width:100%;
+    border:none;
+    outline:none;
+    background:#f8f8f8;
+    padding:18px 20px;
+    border-radius:16px;
+    font-size:16px;
+    transition:0.3s;
+    border:2px solid transparent;
+}
+
+.input-group input:focus,
+.input-group textarea:focus{
+    border-color:#800000;
+    background:white;
+}
+
+/* BUTTON */
+
+.submit-btn{
+    width:100%;
+    border:none;
+    background:#800000;
+    color:white;
+    padding:18px;
+    border-radius:16px;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.submit-btn:hover{
+    background:#a52a2a;
+    transform:translateY(-3px);
+}
+
+/* ACTIVE NAV */
+
+.nav-links a.active{
+    background:white;
+    color:#800000;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1100px){
+
+    .contact-container{
+        grid-template-columns:1fr;
+    }
+
+}
+
+@media(max-width:992px){
+
+    .contact-main{
+        margin-left:0;
+        width:100%;
+        padding:40px 20px;
+    }
+
+    .contact-header h1{
+        font-size:42px;
+    }
+
+    .contact-form-container,
+    .contact-info{
+        padding:25px;
+    }
+
+}

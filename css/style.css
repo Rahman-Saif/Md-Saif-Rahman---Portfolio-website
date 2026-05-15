@@ -1,0 +1,298 @@
+/* css/style.css */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+    height:100%;
+}
+
+body{
+    display:flex;
+    min-height:100%;
+    background:#ffffff;
+    color:#222;
+    overflow-x:hidden;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+    width:320px;
+    height:100vh;
+    position:fixed;
+    left:0;
+    top:0;
+    background:#800000;
+    color:white;
+    padding:40px 25px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.profile{
+    text-align:center;
+}
+
+.profile img{
+    width:160px;
+    height:160px;
+    border-radius:20px;
+    object-fit:cover;
+    border:4px solid white;
+    margin-bottom:20px;
+}
+
+.profile h1{
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+.role{
+    font-size:15px;
+    margin-bottom:15px;
+    opacity:0.9;
+}
+
+.role span{
+    margin:0 6px;
+}
+
+.bio{
+    line-height:1.8;
+    font-size:15px;
+    opacity:0.9;
+}
+
+.social-icons{
+    text-align:center;
+    margin:30px 0;
+}
+
+.social-icons a{
+    color:white;
+    font-size:24px;
+    margin:0 10px;
+    transition:0.3s;
+}
+
+.social-icons a:hover{
+    color:#ffd6d6;
+}
+
+.nav-links{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-size:17px;
+    transition:0.3s;
+    padding:8px 12px;
+    border-radius:10px;
+}
+
+.nav-links a:hover{
+    background:white;
+    color:#800000;
+}
+
+/* MAIN CONTENT */
+
+.main-content{
+    margin-left:320px;
+    width:calc(100% - 320px);
+    padding:60px;
+}
+
+/* HERO */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:50px;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.hero-text h2{
+    font-size:28px;
+    color:#800000;
+}
+
+.hero-text h1{
+    font-size:70px;
+    margin:15px 0;
+}
+
+.hero-text h3{
+    font-size:32px;
+    margin-bottom:20px;
+    color:#800000;
+}
+
+.hero-text p{
+    line-height:1.9;
+    max-width:700px;
+    margin-bottom:30px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:20px;
+}
+
+.btn{
+    padding:14px 30px;
+    text-decoration:none;
+    border-radius:12px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.primary-btn{
+    background:#800000;
+    color:white;
+}
+
+.primary-btn:hover{
+    background:#a52a2a;
+}
+
+.secondary-btn{
+    border:2px solid #800000;
+    color:#800000;
+}
+
+.secondary-btn:hover{
+    background:#800000;
+    color:white;
+}
+
+.hero-image img{
+    width:350px;
+    border-radius:30px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* SECTIONS */
+
+.section{
+    padding:80px 0;
+}
+
+.section-title{
+    margin-bottom:40px;
+}
+
+.section-title h2{
+    font-size:42px;
+    color:#800000;
+}
+
+/* EDUCATION */
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.edu-card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+    transition:0.3s;
+    border:2px solid transparent;
+}
+
+.edu-card:hover{
+    transform:translateY(-8px);
+    border-color:#800000;
+}
+
+.edu-card h3{
+    margin-bottom:15px;
+    color:#800000;
+}
+
+.edu-card p{
+    margin-bottom:10px;
+}
+
+/* SKILLS */
+
+.skills-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.skill{
+    background:#800000;
+    color:white;
+    padding:14px 24px;
+    border-radius:50px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.skill:hover{
+    transform:scale(1.08);
+    background:#a52a2a;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:992px){
+
+    body{
+        flex-direction:column;
+    }
+
+    .sidebar{
+        position:relative;
+        width:100%;
+        height:auto;
+    }
+
+    .main-content{
+        margin-left:0;
+        width:100%;
+        padding:40px 25px;
+    }
+
+    .hero{
+        flex-direction:column-reverse;
+        text-align:center;
+    }
+
+    .hero-text h1{
+        font-size:50px;
+    }
+
+    .hero-image img{
+        width:280px;
+    }
+
+    .hero-buttons{
+        justify-content:center;
+    }
+
+}

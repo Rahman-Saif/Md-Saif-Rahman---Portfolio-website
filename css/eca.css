@@ -1,0 +1,161 @@
+/* css/eca.css */
+
+.eca-main{
+    margin-left:320px;
+    width:calc(100% - 320px);
+    min-height:100vh;
+    padding:60px;
+    background:#fafafa;
+}
+
+/* HEADER */
+
+.eca-header{
+    margin-bottom:60px;
+}
+
+.eca-header h1{
+    font-size:60px;
+    color:#800000;
+    margin-bottom:15px;
+}
+
+.eca-header p{
+    max-width:750px;
+    line-height:1.8;
+    color:#555;
+    font-size:18px;
+}
+
+/* GRID */
+
+.eca-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+    gap:35px;
+}
+
+/* CARD */
+
+.eca-card{
+    background:white;
+    border-radius:28px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:0.4s;
+}
+
+.eca-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 18px 40px rgba(128,0,0,0.18);
+}
+
+/* IMAGE */
+
+.eca-image{
+    width:100%;
+    height:240px;
+    overflow:hidden;
+}
+
+.eca-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:0.5s;
+}
+
+.eca-card:hover .eca-image img{
+    transform:scale(1.08);
+}
+
+/* CONTENT */
+
+.eca-content{
+    padding:30px;
+}
+
+/* ICON */
+
+.eca-icon{
+    width:70px;
+    height:70px;
+    background:#800000;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:20px;
+    font-size:28px;
+    margin-bottom:22px;
+}
+
+/* TITLE */
+
+.eca-content h2{
+    color:#800000;
+    margin-bottom:18px;
+    font-size:28px;
+}
+
+/* DESCRIPTION */
+
+.eca-content p{
+    line-height:1.9;
+    color:#555;
+    margin-bottom:25px;
+}
+
+/* TAGS */
+
+.eca-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.eca-tags span{
+    background:#f3e7e7;
+    color:#800000;
+    padding:10px 18px;
+    border-radius:50px;
+    font-size:14px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.eca-tags span:hover{
+    background:#800000;
+    color:white;
+}
+
+/* ACTIVE NAV */
+
+.nav-links a.active{
+    background:white;
+    color:#800000;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:992px){
+
+    .eca-main{
+        margin-left:0;
+        width:100%;
+        padding:40px 20px;
+    }
+
+    .eca-header h1{
+        font-size:42px;
+    }
+
+}
+
+@media(max-width:600px){
+
+    .eca-grid{
+        grid-template-columns:1fr;
+    }
+
+}
