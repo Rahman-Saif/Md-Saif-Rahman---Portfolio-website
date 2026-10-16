@@ -1,0 +1,307 @@
+{
+  "personal_info": {
+    "name": "Md Saif Rahman",
+    "roles": ["Software Engineer", "AI Engineer"],
+    "bio": "Passionate about Software Engineering, NLP, Machine Learning and Research.",
+    "description": "I am passionate about Machine Learning, Artificial Intelligence, NLP and Software Development. I love building impactful projects and conducting research.",
+    "location": "Dhaka, Bangladesh"
+  },
+
+  "contact": {
+    "email": "rahmansaif.413@gmail.com",
+    "github": "https://github.com/Rahman-Saif",
+    "linkedin": "https://www.linkedin.com/in/saif-rahman7/",
+    "twitter": null,
+    "linkedin_display": "linkedin.com/in/rahmansaif",
+    "github_display": "github.com/Rahman-Saif"
+  },
+
+  "education": [
+    {
+      "degree": "BSc in ICT",
+      "institution": "Bangladesh University of Professionals",
+      "duration": "2021 - 2025"
+    },
+    {
+      "degree": "Higher Secondary Certificate",
+      "institution": "Dr. Mahbubur Rahman Molla College",
+      "duration": "2018 - 2020"
+    },
+    {
+      "degree": "Secondary School Certificate",
+      "institution": "Adarsha School, Narayangonj",
+      "duration": "2008 - 2018"
+    }
+  ],
+
+  "skills": [
+    "Python",
+    "Machine Learning",
+    "Deep Learning",
+    "TensorFlow",
+    "PyTorch",
+    "NLP",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Next.js",
+    "SQL"
+  ],
+
+  "experience": [
+    {
+      "title": "Junior Software Engineer",
+      "company": "Void Studio",
+      "type": "Full-time",
+      "duration": "August 2024 - 2025",
+      "year": 2025,
+      "responsibilities": [
+        "Developed a full-featured e-commerce website for a renowned bookshop company, focusing on front-end development and UI design.",
+        "Improved website performance and loading speed through front-end optimization techniques.",
+        "Designed and developed the company's portfolio website to enhance online presence and branding.",
+        "Collaborated on multiple web development projects, gaining experience in responsive design and modern technologies."
+      ],
+      "skills_used": ["React Js", "Next Js", "JavaScript", "Tailwind CSS"]
+    },
+    {
+      "title": "IT Intern",
+      "company": "Trust Bank PLC",
+      "type": "Internship",
+      "duration": "Dec 2024 - Jan 2025",
+      "year": 2024,
+      "responsibilities": [
+        "Led a frontend team to develop a fully responsive banking CMS.",
+        "Conducted in-depth R&D on national and international banking platforms to tailor design to user needs.",
+        "Created pixel-perfect Figma prototypes and implemented them using HTML, CSS, Bootstrap, JavaScript, and PHP.",
+        "Enhanced mobile and desktop experiences through performance optimization and intuitive navigation."
+      ],
+      "skills_used": ["HTML", "CSS", "JavaScript", "PHP"]
+    }
+  ],
+
+  "projects": {
+    "software_development": [
+      {
+        "title": "Trust Bank Website",
+        "description": "A modern responsive portfolio website built using HTML, CSS and JavaScript.",
+        "tech_stack": ["HTML", "CSS", "JavaScript"],
+        "github": "https://github.com/Rahman-Saif/Trust-main-website",
+        "live_demo": null
+      },
+      {
+        "title": "Nilkhet Boighor",
+        "description": "Full stack library management system with authentication and database support.",
+        "tech_stack": ["Python", "Flask", "SQL"],
+        "github": null,
+        "live_demo": null
+      },
+      {
+        "title": "E-commerce Website",
+        "description": "Full stack e-commerce website with authentication and database support.",
+        "tech_stack": ["Python", "Flask", "SQL"],
+        "github": null,
+        "live_demo": null
+      },
+      {
+        "title": "Library Management System",
+        "description": "Full stack library management system with authentication and database support.",
+        "tech_stack": ["Python", "Flask", "SQL"],
+        "github": null,
+        "live_demo": null
+      }
+    ],
+    "data_science": [
+      {
+        "title": "Diabetes Prediction with Machine Learning",
+        "description": "This project focuses on predicting whether a person is likely to have diabetes using Machine Learning techniques.",
+        "tech_stack": ["Pandas", "Matplotlib", "Seaborn"],
+        "github": "https://github.com/Rahman-Saif/Diabetes-Prediction-with-Machine-Learning",
+        "live_demo": null
+      },
+      {
+        "title": "A Data Analysis of Sexual Violence in Bangladesh",
+        "description": "This project presents a data analysis of sexual violence in Bangladesh, focusing on identifying patterns and trends across time, location, and victim-related factors.",
+        "tech_stack": ["Python", "Scikit-learn", "ML"],
+        "github": "https://github.com/Rahman-Saif/A-Data-Analysis-of-Sexual-Violence-in-Bangladesh",
+        "live_demo": null
+      },
+      {
+        "title": "Laptop Price Prediction with Machine Learning",
+        "description": "A Machine Learning-based Laptop Price Predictor that estimates laptop prices based on hardware specifications such as brand, RAM, processor, storage, GPU, and display features.",
+        "tech_stack": ["Python", "Scikit-learn", "ML"],
+        "github": "https://github.com/Rahman-Saif/Laptop-Price-Calculator-with-Machine-Learning",
+        "live_demo": null
+      },
+      {
+        "title": "House Price Prediction with Machine Learning",
+        "description": "A Machine Learning-based House Price Prediction system that estimates property prices based on key features such as location, area, number of rooms, and other housing attributes.",
+        "tech_stack": ["Python", "Scikit-learn", "ML"],
+        "github": "https://github.com/Rahman-Saif/House-Price-Prediction-with-Machine-Learning",
+        "live_demo": null
+      },
+      {
+        "title": "Crime Statistics EDA",
+        "description": "An Exploratory Data Analysis (EDA) of crime statistics aimed at uncovering patterns and insights from crime data.",
+        "tech_stack": ["Python", "Scikit-learn", "ML"],
+        "github": "https://github.com/Rahman-Saif/Crime-Statistics-EDA",
+        "live_demo": null
+      }
+    ],
+    "ai_engineering": [
+      {
+        "title": "Movie Recommendation System",
+        "description": "A Movie Recommendation System built using Python and Machine Learning. Recommends movies based on similarity between genres, keywords, cast, crew, and overview.",
+        "tech_stack": ["ML", "Flask", "Python"],
+        "github": "https://github.com/Rahman-Saif/Movie-Recommendation-System",
+        "live_demo": null
+      },
+      {
+        "title": "Heart Failure Detection with Deep Learning",
+        "description": "A Heart Failure Detection system built using Python and Deep Learning techniques. Predicts the likelihood of heart failure based on patient data.",
+        "tech_stack": ["ML", "Flask", "Python"],
+        "github": "https://github.com/Rahman-Saif/Heart-Failure-Prediction-with-Deep-Learning",
+        "live_demo": null
+      },
+      {
+        "title": "Potato Disease Classification with CNN",
+        "description": "A Potato Disease Classification system built using Python and CNN. Identifies different diseases in potato plants based on leaf images.",
+        "tech_stack": ["ML", "Flask", "Python"],
+        "github": "https://github.com/Rahman-Saif/Potato-Disease-Classification-with-CNN",
+        "live_demo": null
+      },
+      {
+        "title": "Whatsapp Chat Analysis",
+        "description": "A Whatsapp Chat Analysis system built using Python and NLP techniques. Analyzes chat messages to extract insights and patterns.",
+        "tech_stack": ["ML", "Flask", "Python"],
+        "github": "https://github.com/Rahman-Saif/Whatsapp-Chat-Analysis",
+        "live_demo": null
+      },
+      {
+        "title": "Depression Detection NLP",
+        "description": "NLP research project for detecting depression from social media texts.",
+        "tech_stack": ["NLP", "TensorFlow", "Python"],
+        "github": null,
+        "live_demo": null
+      }
+    ]
+  },
+
+  "publications": [
+    {
+      "year": 2026,
+      "title": "Assessing AI Literacy Through Reddit Discourse in Bangladeshi Online Communities",
+      "conference": null,
+      "authors": [
+        "Saif Rahman"
+      ],
+      "status": "Ongoing",
+      "description": "Extracting and labeling posts from Bangladeshi Reddit communities to assess and analyze AI literacy levels through discourse analysis and NLP techniques.",
+      "pdf_link": null,
+      "doi_link": null,
+      "code_link": null
+    },
+    {
+      "year": 2026,
+      "title": "Uncovering the Root Causes of Test Brittleness: Timing, Concurrency, and Environment Dependencies in Software Testing",
+      "conference": null,
+      "authors": [
+        "Saif Rahman"
+      ],
+      "status": "Ongoing",
+      "description": "Analyzing real-world pull requests, test failures, and code changes to identify brittleness caused by timing dependencies, concurrency issues, JDK and library compatibility, Maven Surefire behavior, configuration-sensitive logic, and resource-management problems.",
+      "pdf_link": null,
+      "doi_link": null,
+      "code_link": null
+    },
+    {
+      "year": 2026,
+      "title": "HAN-DistilBERT for Depression Detection from Twitter Data: Integrating Hierarchical Attention with Transformer-Based Model",
+      "conference": "International Conference on Computer and Information Technology (ICCIT) 2024",
+      "authors": [
+        "Saif Rahman",
+        "Tarannum Binte Tariq",
+        "Nusrot Jahan",
+        "Naimul Hasan Naime",
+        "Nazneen Akhter"
+      ],
+      "status": "Published",
+      "pdf_link": null,
+      "doi_link": null,
+      "code_link": null
+    },
+    {
+      "year": 2025,
+      "title": "Enhanced Twitter-Based Depression Severity Classification Using Multi-Head Attention with RoBERTa and DistilBERT Fusion",
+      "conference": "IEEE 7th International Conference on Sustainable Technologies for Industry 5.0 (STI 2025)",
+      "authors": [
+        "Tarannum Binte Tariq",
+        "Nusrot Jahan",
+        "Saif Rahman",
+        "Naimul Hasan Naime"
+      ],
+      "status": "Published",
+      "pdf_link": null,
+      "doi_link": null,
+      "code_link": null
+    },
+    {
+      "year": 2025,
+      "title": "Linguistic Feature Based Depression Detection in Social Media Across Bangla, Banglish, and English",
+      "conference": "Expert Systems With Applications",
+      "authors": [
+        "Saif Rahman",
+        "Tarannum Binte Tariq",
+        "Naimul Hasan Naime",
+        "Nazneen Akhter",
+        "Dr Md Sazzadur Rahman"
+      ],
+      "status": "Under Review",
+      "pdf_link": null,
+      "doi_link": null,
+      "code_link": null
+    }
+  ],
+
+  "research_interests": [
+    "Artificial Intelligence",
+    "Natural Language Processing",
+    "Machine Learning",
+    "Deep Learning",
+    "Computational Social Science",
+    "Data Science"
+  ],
+
+  "extra_curricular_activities": [
+    {
+      "title": "Programming Contest",
+      "description": "Participated in university and national level programming contests and solved algorithmic problems.",
+      "tags": ["Competitive Programming", "Algorithms", "Problem Solving"]
+    },
+    {
+      "title": "Club Leadership",
+      "description": "Worked as an executive member in university clubs and organized multiple technical events.",
+      "tags": ["Leadership", "Management", "Teamwork"]
+    },
+    {
+      "title": "Public Speaking",
+      "description": "Participated in seminars, presentations and public speaking activities at university events.",
+      "tags": ["Communication", "Presentation", "Confidence"]
+    },
+    {
+      "title": "Volunteer Activities",
+      "description": "Worked in community service programs, educational volunteering and awareness campaigns.",
+      "tags": ["Volunteering", "Social Work", "Community"]
+    },
+    {
+      "title": "Hackathons",
+      "description": "Participated in AI, machine learning and software development hackathons and innovation challenges.",
+      "tags": ["Hackathon", "Innovation", "AI Projects"]
+    },
+    {
+      "title": "Workshop & Training",
+      "description": "Attended technical workshops and training sessions on AI, data science and research methodologies.",
+      "tags": ["Workshop", "Training", "Learning"]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Md Saif Rahman | Software Engineer & Data Scientist</title>
+    <meta name="description"
+        content="Software engineer and data scientist working on NLP, machine learning and research. Based in Dhaka, Bangladesh.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="first.css">
+</head>
+
+<body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="nav">
+        <div class="wrap nav-in">
+            <a class="logo" href="#top">Saif Rahman.</a>
+            <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+            <nav id="navLinks">
+                <a href="#research">Research</a><a href="#experience">Experience</a><a href="#education">Education</a>
+                <a href="#projects">Projects</a><a href="#activities">Activities</a><a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero wrap" id="top">
+            <img class="avatar" src="images/dp.jpg" alt="Md Saif Rahman" onerror="this.style.display='none'">
+            <div>
+                <p class="muted" id="role"></p>
+                <h1>Hi, I'm Saif.</h1>
+                <p class="lead" id="bio"></p>
+                <p id="description"></p>
+                <div class="tags" id="interests"></div>
+                <div class="links" id="heroLinks"></div>
+            </div>
+        </section>
+
+        <section class="wrap" id="research">
+            <h2>Publications</h2>
+            <p class="sub">NLP, deep learning and mental-health research.</p>
+            <div id="pubs"></div>
+        </section>
+        <section class="wrap" id="experience">
+            <h2>Experience</h2>
+            <p class="sub">Where I've worked and what I built.</p>
+            <div id="exp"></div>
+        </section>
+        <section class="wrap" id="education">
+            <h2>Education</h2>
+            <p class="sub">Academic background.</p>
+            <div id="edu"></div>
+        </section>
+
+        <section class="wrap" id="projects">
+            <h2>Projects</h2>
+            <p class="sub">Building systems beyond the notebook.</p>
+            <div class="tabs" id="tabs" role="tablist"></div>
+            <div class="grid" id="projGrid"></div>
+        </section>
+
+        <section class="wrap" id="skills">
+            <h2>Skills</h2>
+            <div class="tags" id="skillList"></div>
+        </section>
+        <section class="wrap" id="activities">
+            <h2>Beyond the code</h2>
+            <div class="grid" id="acts"></div>
+        </section>
+
+        <section class="wrap contact" id="contact">
+            <h2>Let's work together.</h2>
+            <p class="lead">I'm open to research collaborations, software roles and academic opportunities in NLP and
+                machine learning.</p>
+            <div class="links" id="contactLinks"></div>
+        </section>
+    </main>
+
+    <footer class="wrap foot"><span id="copy"></span><a href="#top">Back to top ↑</a></footer>
+    <script src="first.js"></script>
+</body>
+
+</html>
